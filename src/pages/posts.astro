@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+const pageTitle = "Posts";
+---
+<Layout pageTitle={pageTitle}>
+    <div class="gif">
+        <img width="300" height="259" alt="RaccoonLaptopGif" src="/blog.webp"/>
+    </div>
+    <h2>Blog</h2>
+    <ul role="list" class="link-card-grid">
+        <Card
+            url="http://rss.taradruffel.de/"
+            image="/blog-post.webp"
+            title="FreshRSS"
+            body="Self Hosted RSS Reader using FreshRSS"
+        />
+        <Card
+            url="#"
+            image="/blog-post.webp"
+            title="Homepage"
+            body="Small homepage for myself made in astro using the Milky-Way theme"
+        />
+    </ul>
+</Layout>
+
