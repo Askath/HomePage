@@ -1,0 +1,13 @@
+{
+  "name": "HomePage",
+  "main": "index.ts",
+  "devDependencies": {
+    "@types/node": "^18"
+  },
+  "dependencies": {
+    "@pulumi/digitalocean": "^4.27.0",
+    "@pulumi/docker": "^4.5.3",
+    "@pulumi/pulumi": "^3.113.0",
+    "typescript": "^5.0.0"
+  }
+}

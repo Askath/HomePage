@@ -1,0 +1,7 @@
+name: HomePage
+runtime: nodejs
+description: A minimal DigitalOcean TypeScript Pulumi program
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: ""
